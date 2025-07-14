@@ -47,16 +47,6 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        {/*         <div className="relative my-auto flex aspect-[1.7777777777777777/1] h-fit items-center overflow-hidden rounded-lg drop-shadow-[0_0_21px_rgba(255,255,255,0.2),0_0_10px_rgba(255,93,1,0.2)]">
-          <Script src="https://fast.wistia.com/player.js" async />
-          <Script src="https://fast.wistia.com/embed/q91qufujce.js" async type="module" />
-
-          <wistia-player
-            className="absolute top-0 left-0"
-            media-id="q91qufujce"
-            aspect="1.7777777777777777"
-          ></wistia-player>
-        </div> */}
       </div>
 
       <hr className="absolute bottom-14 left-0 w-full" />
