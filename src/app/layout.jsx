@@ -6,7 +6,6 @@ import { keywords } from "@/constants";
 import GoogleTag from "@/components/ui/GoogleTag";
 import CookieBanner from "@/components/ui/cookie-banner";
 import Navbar from "@/components/ui/navbar";
-import Loader from "@/components/ui/loader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -81,7 +80,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Navbar />
-          <main className="mt-15">{children}</main>
+          <main className="mt-16">{children}</main>
           <Footer />
           <CookieBanner />
         </ThemeProvider>
