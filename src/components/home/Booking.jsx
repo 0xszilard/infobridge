@@ -14,11 +14,11 @@ export default function Booking() {
             Free 15-Minute Product Strategy Call
           </h2>
           <p className="text-muted-foreground mb-2 text-lg">
-            On this call, we’ll explore how you can turn your content, expertise, or coaching business into a real SaaS
+            On this call, we'll explore how you can turn your content, expertise, or coaching business into a real SaaS
             product or platform — without needing to code or hire a dev team yourself.
           </p>
           <p className="text-muted-foreground mb-4 text-lg">
-            Choose a time that works for you, and we’ll map out what your idea could look like as a real,
+            Choose a time that works for you, and we'll map out what your idea could look like as a real,
             revenue-generating product.
           </p>
           <h3 className="text-primary mb-3 text-xl font-semibold">THIS CALL IS PERFECT FOR:</h3>
@@ -50,7 +50,7 @@ export default function Booking() {
 
         <Card className="flex-grow overflow-hidden p-0">
           <InlineWidget
-            className="h-full dark:invert"
+            className="h-full min-h-[600px] dark:invert"
             pageSettings={{
               backgroundColor: "FFFFFF",
               hideEventTypeDetails: true,

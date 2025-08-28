@@ -43,11 +43,11 @@ export default function Contact() {
     <section className="bg-background relative px-4 py-10 md:px-10">
       <div className="m-auto max-w-5xl">
         <section className="grid place-content-center gap-2 px-8 text-black">
-          <div className="group flex items-center justify-center">
+          <div className="group flex items-center justify-center gap-4">
             <Icons.linkedin />
             <FlipLink href="https://www.linkedin.com/company/infobridge-dev">Linkedin</FlipLink>
           </div>
-          <div className="group flex items-center justify-center">
+          <div className="group flex items-center justify-center gap-4">
             <FlipLink href="https://github.com/0xszilard">Github</FlipLink>
             <Icons.github fill="red" />
           </div>

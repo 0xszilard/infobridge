@@ -1,9 +1,14 @@
-import React from "react";
 import { Card, CardContent } from "../ui/card";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
+import { signUp } from "@/app/actions";
+import { cookies } from "next/headers";
 
-export default function NewsLetter() {
+export default async function NewsLetter() {
+  const cookieStore = await cookies();
+
+  const newsletter = cookieStore.has("newsletter");
+
   return (
     <section className="bg-muted/30 border-t px-4 py-16 md:px-6">
       <div className="container m-auto">
@@ -15,14 +20,21 @@ export default function NewsLetter() {
                 Get weekly articles, tutorials, and industry insights delivered to your inbox. Join 5,000+ developers
                 and business owners.
               </p>
-              <div className="mx-auto flex max-w-md gap-2">
-                <Input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="bg-primary-foreground text-primary placeholder:text-primary/60"
-                />
-                <Button variant="secondary">Subscribe</Button>
-              </div>
+              {newsletter ? (
+                "Signed Up"
+              ) : (
+                <form action={signUp} className="mx-auto flex max-w-md gap-2">
+                  <Input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    className="dark:placeholder:text-foreground/80"
+                  />
+                  <Button type="submit" variant="secondary">
+                    Subscribe
+                  </Button>
+                </form>
+              )}
               <p className="text-sm opacity-75">No spam. Unsubscribe anytime.</p>
             </div>
           </CardContent>

@@ -23,7 +23,7 @@ export default function CookieBanner() {
       animate(
         bannerRef.current,
         { opacity: [0, 1], transform: ["translateY(50px)", "translateY(0px)"] },
-        { duration: 0.4, easing: "ease-out", delay: 1.5 },
+        { duration: 0.4, easing: "ease-out", delay: 1.5 }
       );
     }
   }, [show]);
@@ -36,12 +36,8 @@ export default function CookieBanner() {
   if (!show) return null;
 
   return (
-    <div
-      ref={bannerRef}
-      className="fixed right-5 bottom-5 z-50 max-w-md"
-      style={{ opacity: 0 }} // start hidden for animation
-    >
-      <Card className="rounded-md">
+    <div ref={bannerRef} className="fixed right-0 bottom-0 z-50 max-w-md md:right-5 md:bottom-5" style={{ opacity: 0 }}>
+      <Card className="rounded-t-md rounded-b-none md:rounded-md">
         <CardHeader className="flex items-center justify-between border-b px-4">
           <h4 className="text-lg font-semibold">We use cookies</h4>
           <Cookie />

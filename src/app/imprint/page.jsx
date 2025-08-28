@@ -12,32 +12,29 @@ const md = `
 ## Imprint (Impressum)
 
 **Company Name:**  
-InforBridge s.r.o.
+InforBridge OÜ
 
 **Legal Form:**  
-Spoločnosť s ručením obmedzeným (s.r.o.)
+Private Limited Company (osaühing, OÜ)
 
 **Registered Office:**  
-Námestie Slobody 1  
-811 06 Bratislava  
-Slovak Republic
+Pärnu mnt 139c  
+11317 Tallinn   
+Estonia
 
 **Commercial Register Entry:**  
-Registered in the Commercial Register of the District Court Bratislava I  
-Section: Sro, Insert No.: 123456/B
+Registered in the Estonian Commercial Register  
+Registry Code: 12345678
 
-**Company ID (IČO):**  
-12345678
-
-**VAT ID (IČ DPH):**  
-SK1234567890
+**VAT ID:**  
+EE123456789
 
 **Legal Representative:**  
 Mgr. Szilárd Máté, CEO
 
 **Contact Information:**  
-Phone: +421 2 123 456 78  
-Email: hello@infobridge.dev  
+Phone: +372 600 1234  
+Email: [szilard@infobridge.dev](mailto:szilard@infobridge.dev)  
 Website: [infobridge.dev](https://infobridge.dev)
 
 ---
@@ -49,9 +46,6 @@ The European Commission provides a platform for online dispute resolution:
 You can find our contact email above.
 
 We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.
-
----
-
 `;
 
 export default function PrivacyPage() {

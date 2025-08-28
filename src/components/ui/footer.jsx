@@ -1,4 +1,3 @@
-import React from "react";
 import { ThemeToggle } from "./theme-toggle";
 import Link from "next/link";
 
@@ -7,9 +6,7 @@ export default function Footer() {
     <footer className="bg-muted flex items-center justify-between p-8">
       <div className="flex items-center gap-4">
         <ThemeToggle />
-        <span className="text-muted-foreground">
-          InfoBridge Ltd. All Rights Reserved
-        </span>
+        <span className="text-muted-foreground">InfoBridge OÜ. All Rights Reserved</span>
       </div>
       <div className="flex items-center gap-4">
         <Link className="text-muted-foreground hover:underline" href="/imprint">

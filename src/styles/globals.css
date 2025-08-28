@@ -152,10 +152,3 @@
 @utility fade-top-lg {
   mask-image: linear-gradient(to bottom, transparent 15%, black 100%);
 }
-
-wistia-player[media-id="q91qufujce"]:not(:defined) {
-  background: center / contain no-repeat url("https://fast.wistia.com/embed/medias/q91qufujce/swatch");
-  display: block;
-  filter: blur(5px);
-  padding-top: 56.25%;
-}

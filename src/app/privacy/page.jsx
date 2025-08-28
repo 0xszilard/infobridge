@@ -11,12 +11,12 @@ export const metadata = {
 const md = `
 # Privacy Policy
 
-**Last updated:** May 2025  
+**Last updated:** July 2025  
 
 ---
 
 ## 1. General Information
-At InfoBridge s.r.o., we take the protection of your personal data seriously. We process your data exclusively in accordance with applicable legal regulations (GDPR, Slovak Personal Data Protection Act). This privacy policy outlines the most important aspects of data processing on our website.
+At InfoBridge OÜ, we take the protection of your personal data seriously. We process your data exclusively in accordance with applicable legal regulations (GDPR, Estonian Personal Data Protection Act). This privacy policy outlines the most important aspects of data processing on our website.
 
 ---
 
@@ -97,7 +97,7 @@ Under the GDPR, you have the right to:
 - Object to processing (Art. 21 GDPR)  
 - Revoke previously given consent (Art. 7 GDPR)
 
-For requests, please contact: **hello@infobridge.dev**
+For requests, please contact: **szilard@infobridge.dev**
 
 ---
 
@@ -115,12 +115,6 @@ We implement appropriate technical and organizational measures to protect your p
 
 ## 10. Changes to This Privacy Policy
 We reserve the right to modify this privacy policy to reflect changes in legal requirements or in our data processing practices. The latest version is always available on this website.
-
----
-
-**Last updated:** May 2025  
-**Contact:** [hello@infobridge.dev](mailto:hello@infobridge.dev)
-
 `;
 
 export default function PrivacyPage() {

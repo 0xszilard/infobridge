@@ -1,11 +1,10 @@
-import React from "react";
 import JsonLd from "../ui/json-ld";
 
 export const faqs = [
   {
     question: "How long is the consultation?",
     answer:
-      "Free strategy sessions are 45 minutes, technical audits are 60 minutes, and enterprise consultations are 90 minutes.",
+      "Free strategy sessions are 15 minutes, technical audits are 60 minutes, and enterprise consultations are 90 minutes.",
   },
   {
     question: "What if I'm not ready to start immediately?",
