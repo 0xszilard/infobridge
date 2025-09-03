@@ -14,11 +14,8 @@ export default function Hero() {
             <Code size={12} className="mr-1" />
             Product-Building Team for Creators & Experts
           </Badge>
-          <h1 className="mb-1 text-center text-3xl font-extrabold text-balance filter md:text-4xl md:font-bold lg:text-left">
-            We Turn Your Audience Into{" "}
-            <span className="from-primary to-primary/60 bg-gradient-to-r bg-clip-text text-transparent dark:drop-shadow-[0_0_10px_rgba(255,93,1,0.4)]">
-              Scalable Products
-            </span>
+          <h1 className="mb-1 text-center text-3xl font-extrabold text-balance filter md:text-5xl md:font-bold lg:text-left">
+            We Build and Scale Products That Grow
           </h1>
           <p className="text-muted-foreground mb-3 text-center text-balance md:text-lg">
             We help creators, coaches, and niche entrepreneurs turn their ideas, expertise, and audience into real,
