@@ -89,51 +89,9 @@ const latestPosts = [
 export const metadata = {
   title: "Blog",
   description:
-    "Get actionable tips, tutorials, and insights on software, automation, and growth strategies for online creators. Written by the team at InfoBridge.",
+    "Actionable insights, tutorials, and frameworks on software, automation, and growth systems for founders and SaaS teams. Written by the InfoBridge team.",
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_URL}/blog`,
-  },
-  openGraph: {
-    title: "InfoBridge Blog | Smart Tech for Online Creators",
-    description:
-      "Explore the InfoBridge blog for practical guides, case studies, and strategies that help creators turn ideas into scalable tech.",
-    siteName: "InfoBridge",
-    type: "website",
-    url: process.env.NEXT_PUBLIC_URL,
-    images: [
-      {
-        url: "/opengraph-image.png",
-        secureUrl: "/opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "InfoBridge Blog - Software & Growth Tips for Creators",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@InfoBridge",
-    title: "InfoBridge Blog | Tips, Tools & Strategy for Creators",
-    description:
-      "Discover how creators use software and automation to grow. Get expert insights and tech tutorials from the InfoBridge team.",
-    creator: "@InfoBridge",
-    images: {
-      url: "/twitter-image.png",
-      alt: "InfoBridge Blog - Tech & Growth for Online Creators",
-    },
-  },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: false,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
   },
 };
 

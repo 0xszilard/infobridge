@@ -2,7 +2,7 @@ import Markdown from "@/components/ui/markdown";
 
 export const metadata = {
   title: "Imprint",
-  description: "Privacy policy for InfoBridge",
+  description: "Imprint for InfoBridge",
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_URL}/imprint`,
   },

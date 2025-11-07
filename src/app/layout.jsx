@@ -19,20 +19,20 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: "Custom Software for Creators & Coaches - InfoBridge",
+    default: "Custom Software & Systems for Founders - InfoBridge",
     template: "%s | InfoBridge - Software & Consulting for Online Creators",
   },
   description:
-    "We build custom software that helps content creators, coaches, and infoproduct businesses stand out, scale fast, and systematize everything.",
+    "We build custom software, automation, and acquisition systems that help founders scale smarter, operate leaner, and grow faster.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_URL),
   alternates: {
     canonical: process.env.NEXT_PUBLIC_URL,
   },
   keywords: keywords,
   openGraph: {
-    title: "Custom Software for Creators & Coaches - InfoBridge",
+    title: "Custom Software & Systems for Founders - InfoBridge",
     description:
-      "Helping infoproduct businesses, coaches, and creators systematize, scale, and stand out with tailored software solutions.",
+      "InfoBridge helps founders and SaaS teams build scalable software, automate workflows, and install growth systems that drive acquisition and retention.",
     siteName: "InfoBridge",
     type: "website",
     url: process.env.NEXT_PUBLIC_URL,
@@ -42,20 +42,19 @@ export const metadata = {
         secureUrl: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Custom Software Solutions by InfoBridge",
+        alt: "InfoBridge - Custom Software & Growth Systems for Founders",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     site: "@InfoBridge",
-    title: "Custom Software for Creators & Coaches - InfoBridge",
-    description:
-      "Tailored software to help creators, coaches, and info businesses scale fast and systematize everything.",
+    title: "Custom Software & Systems for Founders - InfoBridge",
+    description: "We help founders and SaaS teams scale with custom software, automations, and growth frameworks.",
     creator: "@InfoBridge",
     images: {
       url: "/twitter-image.png",
-      alt: "Custom software for the creator economy",
+      alt: "InfoBridge - Software & Systems for Founders",
     },
   },
   robots: {
