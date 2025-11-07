@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
-import { placeholder } from "@/assets";
 import { urlFor } from "@/lib/sanity/image";
 import { Calendar, Clock, User } from "lucide-react";
 import { Badge } from "../ui/badge";
@@ -9,7 +8,7 @@ import Image from "next/image";
 
 export default function RecentPosts({ posts }) {
   return (
-    <section className="container m-auto px-4 pb-16 md:px-6">
+    <section className="container m-auto px-4 py-16 md:px-6">
       <h2 className="mb-2 text-2xl font-bold">Latest Articles</h2>
       <p className="text-muted-foreground mb-8">Fresh insights and tutorials from our development team</p>
 
@@ -28,7 +27,7 @@ export default function RecentPosts({ posts }) {
               </div>
             </CardHeader>
 
-            <CardContent className="flex-grow space-y-4">
+            <CardContent className="grow space-y-4">
               <div className="text-muted-foreground flex items-center justify-between gap-4 text-sm">
                 <Badge variant="outline">{post.category.title}</Badge>
                 <div className="flex items-center gap-1">

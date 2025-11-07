@@ -1,4 +1,3 @@
-import { projects } from "@/constants";
 import { client } from "@/lib/sanity/client";
 import { CATEGORIES_QUERY, POSTS, PROJECTS } from "@/lib/sanity/queries";
 

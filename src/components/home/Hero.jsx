@@ -52,7 +52,7 @@ export default function Hero() {
         <div className="m-auto hidden w-full max-w-6xl md:block">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
             <div className="text-center">
-              <div className="text-primary text-lg font-bold md:text-3xl">200+</div>
+              <div className="text-primary text-lg font-bold md:text-3xl">30+</div>
               <div className="text-muted-foreground text-sm">Projects Delivered</div>
             </div>
             <div className="text-center">

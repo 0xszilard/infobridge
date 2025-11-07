@@ -22,9 +22,9 @@ export default function OurStory() {
                 wasting time, money, or momentum. We prioritize clarity, speed, and outcomes over buzzwords and bloat.
               </p>
               <p>
-                Since launching, we’ve grown into a team of 15+ product strategists, designers, and developers — helping
-                creators launch over 200 platforms and SaaS tools, raise over $2M, and unlock new revenue streams at
-                scale.
+                Since launching, we’ve grown into a team of big team of product strategists, designers, and developers —
+                helping creators launch over 30+ platforms and SaaS tools, raise over $450k+, and unlock new revenue
+                streams at scale.
               </p>
             </div>
 

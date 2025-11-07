@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function FeaturedPost({ post }) {
+  if (!post) return null;
   return (
     <section className="container m-auto px-4 py-16 md:px-6">
       <div className="mb-8">

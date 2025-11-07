@@ -76,7 +76,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      {process.env.NEXT_PUBLIC_VERCEL_ENV === "production" && <GoogleTag gaId={process.env.NEXT_PUBLIC_GA_ID} />}
+      {process.env.VERCEL_ENV === "production" && <GoogleTag gaId="G-S0ZGXWS3SL" />}
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Navbar />

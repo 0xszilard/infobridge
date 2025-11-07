@@ -143,13 +143,14 @@ export default async function BlogPage() {
     getSinglePost("how-we-built-a-usd2m-saas-platform-in-3-weeks-complete-technical-breakdown"),
     getRecentPosts(),
   ]);
+  // TODO: Add this once corrected
 
   return (
     <>
       <BlogHero />
       <BlogCategories categories={categories} />
-      <FeaturedPost post={featuredPost} />
-      <RecentPosts posts={recentPosts} />
+      <FeaturedPost post={null} />
+      <RecentPosts posts={[]} />
       <NewsLetter />
     </>
   );

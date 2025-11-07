@@ -59,11 +59,12 @@ export const metadata = {
 
 export default async function ProjectsPage() {
   const projects = await client.fetch(LANDING_PROJECTS);
+  // TODO: Add this once corrected
 
   return (
     <>
       <ProjectsHero />
-      <FeaturedProject />
+      {/* <FeaturedProject /> */}
       <ProjectsGrid projects={projects} />
       <ProjectStats />
       <ProjectsCTA />

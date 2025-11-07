@@ -12,11 +12,11 @@ export default function SocialProof() {
               <div className="text-muted-foreground text-sm">Client Satisfaction</div>
             </div>
             <div className="space-y-2 text-center">
-              <div className="text-primary text-3xl font-bold">$2M+</div>
+              <div className="text-primary text-3xl font-bold">$450k+</div>
               <div className="text-muted-foreground text-sm">Revenue From Launched Products</div>
             </div>
             <div className="space-y-2 text-center">
-              <div className="text-primary text-3xl font-bold">50M+</div>
+              <div className="text-primary text-3xl font-bold">50k+</div>
               <div className="text-muted-foreground text-sm">Audience Reach Across Clients</div>
             </div>
             <div className="space-y-2 text-center">

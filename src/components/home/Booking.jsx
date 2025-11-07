@@ -55,8 +55,8 @@ export default function Booking() {
               backgroundColor: "FFFFFF",
               hideEventTypeDetails: true,
               hideLandingPageDetails: true,
-              primaryColor: "00a2ff",
-              textColor: "1B1714",
+              primaryColor: "15c6c6",
+              textColor: "15c6c6",
               resize: true,
               hideGdprBanner: true,
             }}

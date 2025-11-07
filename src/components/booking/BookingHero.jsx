@@ -11,7 +11,7 @@ export default function BookingHero() {
         </Badge>
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
           Book Your Free{" "}
-          <span className="from-primary to-primary/60 bg-gradient-to-r bg-clip-text text-transparent">
+          <span className="from-primary to-primary/60 bg-linear-to-r bg-clip-text text-transparent">
             Project Consultation
           </span>
         </h1>
@@ -28,7 +28,7 @@ export default function BookingHero() {
           </div>
           <div className="text-muted-foreground flex items-center gap-2 text-sm">
             <Users className="h-4 w-4" />
-            <span>200+ Projects Delivered</span>
+            <span>30+ Projects Delivered</span>
           </div>
           <div className="text-muted-foreground flex items-center gap-2 text-sm">
             <Shield className="h-4 w-4" />

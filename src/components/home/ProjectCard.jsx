@@ -9,20 +9,20 @@ import { urlFor } from "@/lib/sanity/image";
 export default function ProjectCard({ title, description, image, outcomes, technologies, liveUrl, slug }) {
   return (
     <Card className="overflow-hidden pt-0">
-      <div className="aspect-[15/9] w-full overflow-hidden">
+      <div className="aspect-15/9 w-full overflow-hidden">
         <Image
           src={urlFor(image).url() || placeholder}
           alt={title}
           width={500}
           height={300}
-          className="h-full w-full object-cover transition-all hover:scale-105"
+          className="h-full w-full object-cover object-top transition-all hover:scale-105"
         />
       </div>
       <CardHeader>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>
       </CardHeader>
-      <CardContent className="flex-grow space-y-4">
+      <CardContent className="grow space-y-4">
         <div>
           <div className="mb-2 flex items-center gap-2 text-sm font-medium">
             <TrendingUp className="h-4 w-4 text-green-500" />

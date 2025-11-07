@@ -15,7 +15,7 @@ export default function AboutTestimonials() {
             </blockquote>
             <div className="space-y-2">
               <div className="font-semibold">Jennifer W.</div>
-              <div className="text-sm opacity-90">~ 2.4M followers on Instagram</div>
+              <div className="text-sm opacity-90">~ 240k followers on Instagram</div>
             </div>
           </div>
         </CardContent>

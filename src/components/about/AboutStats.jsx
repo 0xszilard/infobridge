@@ -9,12 +9,12 @@ export default function AboutStats() {
         </div>
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           <div className="space-y-2 text-center">
-            <div className="text-primary text-4xl font-bold">200+</div>
+            <div className="text-primary text-4xl font-bold">30+</div>
             <div className="text-muted-foreground text-sm">Projects Delivered</div>
           </div>
           <div className="space-y-2 text-center">
-            <div className="text-primary text-4xl font-bold">$2M+</div>
-            <div className="text-muted-foreground text-sm">Client Funding Raised</div>
+            <div className="text-primary text-4xl font-bold">$450k+</div>
+            <div className="text-muted-foreground text-sm">Revenue Generated</div>
           </div>
           <div className="space-y-2 text-center">
             <div className="text-primary text-4xl font-bold">2.5x</div>
