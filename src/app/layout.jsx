@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: {
     default: "Custom Software & Systems for Founders - InfoBridge",
-    template: "%s | InfoBridge - Software & Consulting for Online Creators",
+    template: "%s | InfoBridge",
   },
   description:
     "We build custom software, automation, and acquisition systems that help founders scale smarter, operate leaner, and grow faster.",
@@ -28,7 +28,7 @@ export const metadata = {
   alternates: {
     canonical: process.env.NEXT_PUBLIC_URL,
   },
-  keywords: keywords,
+  keywords,
   openGraph: {
     title: "Custom Software & Systems for Founders - InfoBridge",
     description:

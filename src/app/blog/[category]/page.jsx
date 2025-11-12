@@ -2,6 +2,7 @@ import { getCategory, getPostsInCategory } from "@/lib/sanity/server";
 import CategoryPosts from "@/components/blog/CategoryPosts";
 import CategoryCTA from "@/components/blog/CategoryCTA";
 import CategoryHeader from "@/components/blog/CategoryHeader";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {
   const { category } = await params;
@@ -61,6 +62,8 @@ export default async function CategoryPage({ params }) {
   const { category } = await params;
 
   const [categoryPosts, currentCategory] = await Promise.all([getPostsInCategory(category), getCategory(category)]);
+
+  if (!currentCategory) return notFound();
 
   return (
     <>

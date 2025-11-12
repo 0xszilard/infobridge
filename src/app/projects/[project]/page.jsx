@@ -2,6 +2,7 @@ import BlogContent from "@/components/blog/BlogContent";
 import { urlFor } from "@/lib/sanity/image";
 import { getProject } from "@/lib/sanity/server";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {
   const { project } = await params;
@@ -58,6 +59,8 @@ export async function generateMetadata({ params }) {
 export default async function ProjectPage({ params }) {
   const { project } = await params;
   const data = await getProject(project);
+
+  if (!data) return notFound();
 
   return (
     <>

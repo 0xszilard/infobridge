@@ -5,6 +5,7 @@ import { getSinglePost } from "@/lib/sanity/server";
 import { ChevronLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -61,6 +62,8 @@ export async function generateMetadata({ params }) {
 export default async function BlogPostPage({ params }) {
   const { slug } = await params;
   const post = await getSinglePost(slug);
+
+  if (!post) return notFound();
 
   return (
     <>
