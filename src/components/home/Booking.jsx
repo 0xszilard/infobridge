@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { InlineWidget } from "react-calendly";
 import { Badge } from "../ui/badge";
 import { Card } from "../ui/card";
 
@@ -48,20 +47,14 @@ export default function Booking() {
           </ol>
         </div>
 
-        <Card className="flex-grow overflow-hidden p-0">
-          <InlineWidget
-            className="h-full min-h-[600px] dark:invert"
-            pageSettings={{
-              backgroundColor: "FFFFFF",
-              hideEventTypeDetails: true,
-              hideLandingPageDetails: true,
-              primaryColor: "15c6c6",
-              textColor: "15c6c6",
-              resize: true,
-              hideGdprBanner: true,
-            }}
-            url="https://calendly.com/infobridge-dev/consulting"
-          />
+        <Card className="grow overflow-hidden p-0">
+          <iframe
+            src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Pv9HFlnb1TDkGY3linDe5k3NNV-cM_W6GxXzzGOdgckbVkHbq-PEQk83MhgMKQIase_Dq2CeV?gv=true"
+            className="dark:invert"
+            width="100%"
+            height="100%"
+            frameBorder="0"
+          ></iframe>
         </Card>
       </div>
     </section>
