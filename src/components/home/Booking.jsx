@@ -6,7 +6,7 @@ import { Card } from "../ui/card";
 export default function Booking() {
   return (
     <section id="contact" className="px-4 pt-10 pb-20 md:px-6">
-      <div className="m-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2">
+      <div className="m-auto grid max-w-5xl grid-cols-1 grid-rows-2 gap-8 md:grid-cols-2 md:grid-rows-1">
         <div>
           <Badge className="mb-2">BOOK YOUR FREE STRATEGY CALL</Badge>
           <h2 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
